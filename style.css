@@ -1,115 +1,68 @@
-/* Global Styles */
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f9;
-    margin: 0;
-    padding: 0;
-  }
-  
-  header {
-    background-color: #34495e;
-    color: white;
-    text-align: center;
-    padding: 20px 0;
-  }
-  
-  h1 {
-    margin: 0;
-    font-size: 2.5rem;
-  }
-  
-  main {
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
-    gap: 20px;
-  }
-  
-  #movie-details {
-    width: 60%;
-    background-color: white;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    text-align: center;
-  }
-  
-  #poster {
-    max-width: 100%;
-    border-radius: 8px;
-    margin-bottom: 15px;
-  }
-  
-  #title {
-    font-size: 1.8rem;
-    margin: 10px 0;
-  }
-  
-  #runtime, #showtime {
-    font-size: 1.2rem;
-  }
-  
-  #tickets-available {
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: #e74c3c;
-  }
-  
-  button {
-    background-color: #27ae60;
-    color: white;
-    font-size: 1.2rem;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
-  
-  button:disabled {
-    background-color: #e74c3c;
-    cursor: not-allowed;
-  }
-  
-  button:hover {
-    background-color: #2ecc71;
-  }
-  
-  #menu {
-    width: 35%;
-  }
-  
-  ul#films {
-    list-style: none;
-    padding: 0;
-  }
-  
-  li.film.item {
-    background-color: #ecf0f1;
-    padding: 10px;
-    margin: 5px 0;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
-  
-  li.film.item:hover {
-    background-color: #bdc3c7;
-  }
-  
-  li.sold-out {
-    background-color: #e74c3c;
-    color: white;
-    text-decoration: line-through;
-  }
-  
-  footer {
-    background-color: #34495e;
-    color: white;
-    text-align: center;
-    padding: 10px 0;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-  }
-  
+h1{
+  text-align: center;
+  font-family: "Michroma", sans-serif;
+  font-weight: 400;
+  font-style: normal
+}
+h2{
+  text-align: center;
+  font-family: "Michroma", sans-serif;
+}
+ul, li{
+  list-style: none;
+  text-align:center;
+
+}
+img{
+  width:600px;
+  height:650px;
+  border-radius: 8px;
+  box-shadow: darkgrey;
+}
+body{
+  background-color: powderblue;
+}
+.menu-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 210px;
+  height: 99%;
+  background-color: #2c3e50;
+  color: white;
+  overflow-y: auto;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 5px;
+}
+button{
+  border-radius: 6px;
+  background-color: white;
+  font-size: 12px;
+  width: 75px;
+  height: 35px;
+}
+button:hover{
+  transform: scale(1.1);
+  background-color: aquamarine;
+}
+
+h3{
+  text-align: center;
+  flex-wrap: wrap;
+  font-weight: normal;
+
+
+}
+h3, p{
+  font-size:20px;
+
+
+}
+.movieContainer {
+  width: 650px;
+  margin: 0 auto;
+  padding: 10px;
+  float: right;
+
+}
